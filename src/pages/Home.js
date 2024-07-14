@@ -1,9 +1,11 @@
 import React from 'react';
-import PaymentOptions from '../components/PaymentOptions/PaymentOptions'; 
+import { Link } from 'react-router-dom'; // Importe Link se estiver usando react-router-dom
+
 const Home = () => {
   return (
     <div>
-      <PaymentOptions />
+      <Link to="/inicio" className="button welcome-button">Bem-vindo</Link>
+      {/* Outros componentes ou conteúdo da página */}
     </div>
   );
 }

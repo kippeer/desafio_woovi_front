@@ -1,7 +1,7 @@
 
 import React from "react";
 import styles from "./Header.module.css";
-import logo from "../../public/woovi.svg"; 
+import logo from "../../assets/woovi.svg"; 
 
 const Header = ({ cliente, texto }) => {
   return (

@@ -3,7 +3,7 @@
 Este é o repositório para o Desafio Woovi Frontend, uma aplicação frontend desenvolvida utilizando React.js e outras tecnologias modernas.
 
 # VISITE 
-https://desafio-woovi-front.vercel.app/
+(https://desafio-woovi-front.vercel.app/)
 
 ## Funcionalidade
 

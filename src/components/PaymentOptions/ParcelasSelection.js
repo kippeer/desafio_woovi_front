@@ -93,12 +93,12 @@ const ParcelasSelection = () => {
               onChange={() => handleParcelaClick(parcela)}
             />
           </div>
-          {parcela.id === 2 && (
-            <div className={styles.pix}>
-              Pix
+          {parcela.id === 1 && (
+            <div className={styles.pixParcelado}>
+              Pix 
             </div>
           )}
-          {parcela.id === 3 && (
+          {parcela.id === 2 && (
             <div className={styles.pixParcelado}>
               Pix Parcelado
             </div>

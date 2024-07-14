@@ -5,6 +5,8 @@ Este é o repositório para o Desafio Woovi Frontend, uma aplicação frontend d
 # VISITE 
 (https://desafio-woovi-front.vercel.app/)
 
+(public/Tela.png)
+
 ## Funcionalidade
 
 A aplicação é estruturada em várias etapas:

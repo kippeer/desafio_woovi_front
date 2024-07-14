@@ -1,0 +1,43 @@
+.fim-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Altura total da tela */
+    background-color: #03D69D; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.fim-image {
+    width: auto; /* Tamanho inicial da imagem com 5px extras */
+    height: auto;
+    margin-bottom: 15px; /* Espaçamento inferior */
+    background-color: white; /* Fundo branco para destacar a imagem */
+    padding: 5px; /* Espaçamento interno para a imagem */
+    border-radius: 50%; /* Bordas arredondadas para uma aparência mais suave */
+
+    /* Propriedades para a animação */
+    opacity: 0; /* Começa com a imagem invisível */
+    transform: translateY(-50px); /* Desloca a imagem para cima */
+    animation: slideIn 1s ease forwards; /* Animação de slide */
+
+    /* Ajuste para telas maiores */
+    @media (min-width: 768px) {
+        width: 220px; /* Aumenta o tamanho da imagem em telas maiores */
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px); /* Começa 50px acima */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Termina na posição normal */
+    }
+}

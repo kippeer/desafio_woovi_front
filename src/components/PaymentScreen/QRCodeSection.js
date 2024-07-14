@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./PaymentScreen.module.css";
-import qrCodeImage from "../utils/img/qrcode.png"; // Importe a imagem do QR Code
+import qrCodeImage from "../../public/qrcode.png"
 
 const QRCodeSection = () => (
   <div className={styles.paymentImage}>

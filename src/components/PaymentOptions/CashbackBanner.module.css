@@ -11,7 +11,7 @@
   .bannerBackground {
     width: 100%;
     height: 100%;
-    background-image: url("../utils/img/banner.svg");
+    background-image: url("../../public/banner.svg");
     background-size: cover;
     background-position: center;
     display: flex;

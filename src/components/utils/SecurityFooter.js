@@ -1,8 +1,8 @@
 
 import React from "react";
 import styles from "../utils/SecurityFooter.module.css";
-import logo from "./img/woovigray.svg"; 
-import secure from "./img/secure.svg";
+import logo from "../../public/woovigray.svg"; 
+import secure from "../../public/secure.svg";
 const SecurityFooter = () => {
   return (
     <footer className={styles.securityInfo}>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Fim.css';
-import woovi from '../components/utils/img/woovi.png'; // Caminho para sua imagem
+import woovi from '../public/woovi.png'; // Caminho para sua imagem
 
 const Fim = () => {
     return (

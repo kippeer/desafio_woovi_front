@@ -1,9 +1,11 @@
 .parcelasContainer {
   display: flex;
   flex-direction: column;
+  margin-top: 15px;
 }
 
 .parcela {
+ 
   position: relative;
   display: flex;
   align-items: center;
@@ -40,6 +42,7 @@
 }
 
 .selected {
+  
   border-color: #03d69d; /* Cor da borda ao selecionar */
   background-color: #e7fce4; /* Cor de fundo ao selecionar */
   border: 2px solid #03d69d; /* Borda sólida ao selecionar */
@@ -60,9 +63,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .mbCheck {
+  
   width: 12px;
   height: 12px;
   background-color: #03D69D;
@@ -79,7 +84,7 @@
   left: 5px;
   /* Distância de 5px à esquerda */
   padding: 5px;
-  background-color: #E5E5E5;
+  background-color: #c9c8c8;
   /* Cor de fundo cinza */
   border-radius: 100px;
   z-index: 1;
@@ -124,7 +129,7 @@
   align-items: flex-start;
   height: 100%;
   width: 100%;
-  margin-top: 25px;
+  margin-top: 35px;
 }
 
 

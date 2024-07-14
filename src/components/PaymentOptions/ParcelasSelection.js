@@ -60,7 +60,7 @@ const ParcelasSelection = () => {
                 <CashbackBanner
                   boldText="🤑 R$ 300,00"
                   normalText=" de volta no seu Pix na hora"
-                  className={styles.customBanner}
+                  
                 />
               </>
             )}
@@ -77,7 +77,7 @@ const ParcelasSelection = () => {
               <CashbackBanner
                 boldText="-3% de juros:"
                 normalText=" Melhor opção de parcelamento"
-                className={styles.customBanner}
+                
               />
             )}
           </div>

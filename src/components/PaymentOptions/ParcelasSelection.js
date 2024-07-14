@@ -33,6 +33,7 @@ const ParcelasSelection = () => {
 
   return (
     <>
+    
     <div className={styles.parcelasContainer}>
       {parcelas.map((parcela) => (
         <div
@@ -92,12 +93,12 @@ const ParcelasSelection = () => {
               onChange={() => handleParcelaClick(parcela)}
             />
           </div>
-          {parcela.id === 1 && (
+          {parcela.id === 2 && (
             <div className={styles.pix}>
               Pix
             </div>
           )}
-          {parcela.id === 2 && (
+          {parcela.id === 3 && (
             <div className={styles.pixParcelado}>
               Pix Parcelado
             </div>

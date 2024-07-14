@@ -9,7 +9,9 @@ const CashbackBanner = ({ boldText, normalText}) => {
           <span className={styles.extraBoldText}>{boldText}</span>
           <span className={styles.textNormal}>{normalText}</span>
         </div>
+        
       </div>
+      
     </div>
   );
 };

@@ -32,6 +32,7 @@ const ParcelasSelection = () => {
   };
 
   return (
+    <>
     <div className={styles.parcelasContainer}>
       {parcelas.map((parcela) => (
         <div
@@ -111,6 +112,7 @@ const ParcelasSelection = () => {
         />
       )}
     </div>
+    </>
   );
 };
 

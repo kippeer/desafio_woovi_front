@@ -1,0 +1,280 @@
+
+.container {
+  background-color: #fff;
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+.qrCode {
+  width: 100px;
+  max-width: 100%;
+}
+
+.paymentInfo {
+  color: #4d4d4d;
+  text-align: center;
+  margin-top: 32px;
+  font: 700 20px Nunito, sans-serif;
+}
+
+.paymentImage {
+  border-radius: 10px;
+  border: 2px solid rgba(3, 214, 157, 1);
+  background-color: #fff;
+  display: flex;
+  margin-top: 24px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  padding: 8px;
+}
+
+.qrScan {
+  width: 100%;
+  height: auto;
+}
+
+.qrCopyContainer {
+  border-radius: 8px;
+  background-color: #133a6f;
+  display: flex;
+  margin-top: 20px;
+  gap: 12px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 16px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.qrCopyText {
+  font-family: Nunito, sans-serif;
+}
+
+.qrIcon {
+  width: 18px;
+  height: auto;
+}
+
+.paymentDeadline {
+  color: #4d4d4d;
+  text-align: center;
+  margin-top: 24px;
+  font: 600 14px Nunito, sans-serif;
+}
+
+.mainContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #4d4d4d;
+  margin-top: 24px;
+}
+
+.paymentPlan {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 16px;
+}
+
+.planDetails {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+.stepContainer {
+  display: flex;
+  align-items: center;
+  gap: 0; /* Removendo o espaço entre os elementos */
+  margin-bottom: 8px;
+}
+
+.stepCircle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid;
+  margin-right: 4px; /* Espaçamento ajustado conforme necessário */
+}
+
+.stepCircle1 {
+  border-color: rgba(3, 214, 157, 1);
+  background-color: #fff;
+  
+  margin-bottom:-33px;
+}
+.verticalLine {
+  width: 2px;
+  height: 40px; /* Altura ajustável conforme necessário */
+  background-color: #ccc;
+  margin: 0 7px; /* Espaçamento ajustável conforme necessário */
+}
+
+.stepCircle2 {
+  border-color: #e5e5e5;
+  background-color: #fff;
+  margin-bottom:auto;
+}
+
+.stepContent {
+  font-family: Nunito, sans-serif;
+}
+
+.planAmount {
+  display: flex;
+  flex-direction: column;
+  font-weight: 800;
+  text-align: right;
+  gap: 30px;
+}
+
+.amount {
+  font-family: Nunito, sans-serif;
+}
+
+.separator {
+  height: 1px;
+  background-color: #e5e5e5;
+  margin: 16px 0;
+}
+
+.totalContainer {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.totalDetails {
+  font: 14px Nunito, sans-serif;
+}
+
+.totalAmount {
+  font: 16px Nunito, sans-serif;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.infoText {
+  font-family: Nunito, sans-serif;
+}
+
+.arrowIcon {
+  width: 12px;
+  height: auto;
+}
+
+.identifierContainer {
+  text-align: center;
+  margin-top: 24px;
+  font: 600 14px Nunito, sans-serif;
+}
+
+.identifierTitle {
+  color: #b2b2b2;
+}
+
+.identifierValue {
+  font-weight: 800;
+  color: #4d4d4d;
+  word-break: break-all;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 32px;
+  font-size: 12px;
+  color: #b2b2b2;
+  font-weight: 600;
+}
+
+.footerIcon {
+  width: 14px;
+  height: auto;
+}
+
+.footerText {
+  font-family: Nunito, sans-serif;
+}
+
+.secureIcon {
+  width: 48px;
+  height: auto;
+}
+
+
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 480px;
+    padding: 36px 0 80px;
+  }
+
+  .qrCode {
+    width: 124px;
+  }
+
+  .paymentInfo {
+    font-size: 24px;
+    margin-top: 46px;
+  }
+
+  .qrCopyContainer {
+    font-size: 18px;
+  }
+
+  .paymentDeadline {
+    font-size: 16px;
+  }
+
+  .mainContent {
+    padding: 0 16px;
+  }
+
+  .paymentPlan {
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+
+  .planAmount {
+    text-align: left;
+  }
+
+  .totalAmount {
+    font-size: 18px;
+  }
+
+  .footerContainer {
+    font-size: 14px;
+  }
+
+  .footerIcon {
+    width: 16px;
+  }
+
+  .secureIcon {
+    width: 58px;
+  }
+}

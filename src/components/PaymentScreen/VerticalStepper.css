@@ -1,0 +1,37 @@
+.vertical-stepper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* Espaço entre os steps */
+}
+
+.step {
+    display: flex;
+    align-items: center;
+}
+
+.step-icon {
+    width: 24px;
+    /* Largura do ícone */
+    height: 24px;
+    /* Altura do ícone */
+    border: 2px solid #03d69d;
+    /* Cor da borda */
+    border-radius: 50%;
+    /* Bordas arredondadas para criar um círculo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    /* Espaço à direita do ícone */
+}
+
+.step-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.step-label h6 {
+    margin-right: 8px;
+    /* Espaço entre o texto e o valor */
+}

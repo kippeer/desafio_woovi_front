@@ -1,0 +1,145 @@
+.parcelasContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.parcela {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-left: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+  border-top: 2px solid #ccc;
+  border-bottom: none; /* Remove a borda de baixo por padrão */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 429px;
+  height: 105px;
+}
+
+.parcela:first-child {
+  margin-bottom: 20px;
+  /* Maior espaçamento na primeira parcela */
+  width: 429px;
+  height: 137px;
+  border-bottom: 2px solid #ccc; 
+  border-radius: 10px;
+}
+
+.parcela:last-child {
+  border-bottom: 2px solid #ccc; 
+}
+
+.parcela:hover {
+  background-color: #f0f0f0;
+  /* Cor de fundo ao passar o mouse */
+}
+
+.selected {
+  border-color: #03d69d; /* Cor da borda ao selecionar */
+  background-color: #e7fce4; /* Cor de fundo ao selecionar */
+  border: 2px solid #03d69d; /* Borda sólida ao selecionar */
+  border-radius: 7px 10px 0 0; /* Arredondamento específico */
+}
+.selected:first-child, .selected:last-child {
+  border-bottom: 2px solid #03d69d; /* Mantém a borda inferior para a primeira parcela quando selecionada */
+}
+.checkbox {
+  order: 1;
+  /* Altera a ordem para aparecer após o texto */
+  
+  /* Espaçamento entre o texto da parcela e o checkbox */
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mbCheck {
+  width: 12px;
+  height: 12px;
+  background-color: #03D69D;
+  /* Cor da marca de seleção */
+  
+  
+}
+
+.pix,
+.pixParcelado {
+  position: absolute;
+  top: -10px;
+  /* Posiciona acima da borda da parcela */
+  left: 5px;
+  /* Distância de 5px à esquerda */
+  padding: 5px;
+  background-color: #E5E5E5;
+  /* Cor de fundo cinza */
+  border-radius: 100px;
+  z-index: 1;
+  /* Para aparecer acima das outras parcelas */
+  font-size: 12px;
+  /* Tamanho da fonte do texto */
+  font-family: 'Nunito', sans-serif;
+}
+
+.pix {
+  left: 25px;
+  opacity: 0px;
+  width: 12%;
+  text-align: center;
+  align-items: center;
+}
+
+.pixParcelado {
+  left: 25px;
+}
+
+.cashbackText {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #03D69D;
+  font-family: 'Nunito', sans-serif;
+}
+
+.totalText {
+  font-family: 'Nunito', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 21.82px;
+  text-align: left;
+  color: #AFAFAF;
+}
+
+.empilhamento {
+  gap: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  margin-top: 25px;
+}
+
+
+----------------------
+
+
+.parcelaText {
+  font-family: "Nunito", sans-serif;
+   
+}
+
+.parcelaIdText {
+  font-weight: bold;
+  }
+
+.parcelaAmountText {
+  font-weight: normal;
+}

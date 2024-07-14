@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+    color: #4d4d4d;
+    font-weight: 800;
+    width: 100%;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    max-width: 100%;
+}
+
+.title {
+    font-family: Nunito, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}

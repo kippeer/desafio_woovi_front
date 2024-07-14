@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./CashbackBanner.module.css";
 
-const CashbackBanner = ({ boldText, normalText, className }) => {
+const CashbackBanner = ({ boldText, normalText}) => {
   return (
     <div className={styles.bannerContainer}>
       <div className={styles.bannerBackground}>
